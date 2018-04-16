@@ -2,6 +2,7 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: 'en'
+    sonata.admin.security.mask.builder.class: Sonata\AdminBundle\Security\Acl\Permission\MaskBuilder
 
 services:
     # default configuration for services in *this* file
@@ -38,3 +39,7 @@ services:
         tags:
             - { name: sonata.admin, manager_type: orm, label: Blog post }
         public: true
+
+    security.acl.permission.map:
+        class: Sonata\AdminBundle\Security\Acl\Permission\AdminPermissionMap
+

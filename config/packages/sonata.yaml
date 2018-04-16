@@ -41,3 +41,6 @@ sonata_media:
         media: App\Application\Sonata\MediaBundle\Entity\Media
         gallery: App\Application\Sonata\MediaBundle\Entity\Gallery
         gallery_has_media: App\Application\Sonata\MediaBundle\Entity\GalleryHasMedia
+
+sonata_doctrine_orm_admin:
+    entity_manager: '@doctrine.orm.entity_manager'
