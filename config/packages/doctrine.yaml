@@ -38,3 +38,10 @@ doctrine:
                     SonataUserBundle: ~
                     FOSUserBundle: ~
                     ApplicationSonataUserBundle: ~
+                    SonataMediaBundle: ~
+#doctrine_phpcr:
+#    odm:
+#        auto_mapping: true
+#        mappings:
+#            SonataMediaBundle:
+#                prefix: Sonata\MediaBundle\PHPCR
