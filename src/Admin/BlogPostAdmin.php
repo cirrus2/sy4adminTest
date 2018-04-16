@@ -18,19 +18,19 @@ class BlogPostAdmin extends AbstractAdmin
     {
         $formMapper
             ->tab("Content")
-            ->with('Content', ['class' => 'col-md-9'])
-            ->add('title', TextType::class)
-            ->add('body', TextareaType::class)
-            ->end()
+                ->with('Content', ['class' => 'col-md-9'])
+                    ->add('title', TextType::class)
+                    ->add('body', TextareaType::class)
+                ->end()
             ->end()
 
             ->tab("Meta data")
-            ->with('Meta data', ['class' => 'col-md-3'])
-            ->add('category', EntityType::class, [
-                'class' => Category::class,
-                'choice_label' => 'name',
-            ])
-            ->end()
+                ->with('Meta data', ['class' => 'col-md-3'])
+                    ->add('category', EntityType::class, [
+                        'class' => Category::class,
+                        'choice_label' => 'name',
+                    ])
+                ->end()
             ->end()
         ;
     }
