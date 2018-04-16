@@ -35,8 +35,8 @@ doctrine:
         entity_managers:
             default:
                 mappings:
-                    SonataUserBundle: ~
                     FOSUserBundle: ~
+                    SonataUserBundle: ~
                     ApplicationSonataUserBundle: ~
                     SonataMediaBundle: ~
                     ApplicationSonataMediaBundle: ~
