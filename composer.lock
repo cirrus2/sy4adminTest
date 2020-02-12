@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "57fb1729e0f6e7178ac158800311fa2a",
@@ -914,12 +914,12 @@
             "version": "v2.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "87ee409783a4a322b5597ebaae558661404055a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/87ee409783a4a322b5597ebaae558661404055a7",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/87ee409783a4a322b5597ebaae558661404055a7",
                 "reference": "87ee409783a4a322b5597ebaae558661404055a7",
                 "shasum": ""
             },
@@ -3983,7 +3983,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/acl-bundle/78553a279dd2b7c85062255f0599990b36ebf448.zip",
+                "url": "https://api.github.com/repos/symfony/acl-bundle/zipball/78553a279dd2b7c85062255f0599990b36ebf448",
                 "reference": "78553a279dd2b7c85062255f0599990b36ebf448",
                 "shasum": ""
             },
@@ -5279,12 +5279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/lts.git",
-                "reference": "6de50b244bad631a71544b3cc3c8e206c0e5f991"
+                "reference": "c1affae45b78aee036effa1759237e7fa96d4af2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/lts/zipball/6de50b244bad631a71544b3cc3c8e206c0e5f991",
-                "reference": "6de50b244bad631a71544b3cc3c8e206c0e5f991",
+                "url": "https://api.github.com/repos/symfony/lts/zipball/c1affae45b78aee036effa1759237e7fa96d4af2",
+                "reference": "c1affae45b78aee036effa1759237e7fa96d4af2",
                 "shasum": ""
             },
             "conflict": {
@@ -5364,7 +5364,8 @@
             ],
             "description": "Enforces Long Term Supported versions of Symfony components",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:04:16+00:00"
+            "abandoned": "symfony/flex",
+            "time": "2018-10-03T12:03:19+00:00"
         },
         {
             "name": "symfony/maker-bundle",
@@ -6885,6 +6886,7 @@
                 "MIT"
             ],
             "description": "A pack for Symfony Encore",
+            "abandoned": "symfony/webpack-encore-bundle",
             "time": "2017-12-21T02:20:09+00:00"
         },
         {
@@ -7260,6 +7262,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2017-10-20T15:21:32+00:00"
         },
         {
@@ -7314,6 +7317,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2017-07-11T19:17:22+00:00"
         },
         {
@@ -7750,16 +7754,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v4.0.8",
+            "version": "v4.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "e82f3f46384482f2a7dab5f00c58a36b9726bde9"
+                "reference": "cc546f59d55f63010ff4d4f40a2af39526842524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/e82f3f46384482f2a7dab5f00c58a36b9726bde9",
-                "reference": "e82f3f46384482f2a7dab5f00c58a36b9726bde9",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/cc546f59d55f63010ff4d4f40a2af39526842524",
+                "reference": "cc546f59d55f63010ff4d4f40a2af39526842524",
                 "shasum": ""
             },
             "require": {
@@ -7778,7 +7782,7 @@
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 },
                 "thanks": {
                     "name": "phpunit/phpunit",
@@ -7812,7 +7816,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04T18:24:59+00:00"
+            "time": "2019-04-16T09:37:00+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
